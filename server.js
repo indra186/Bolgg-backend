@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/blogging-platform';
 
 // Models
-const User = require('./models/User');
+const User = require('./models/User'); 
 const Post = require('./models/Post');
 const Comment = require('./models/Comment');
 
